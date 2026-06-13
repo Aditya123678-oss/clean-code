@@ -395,14 +395,6 @@ function Contact() {
               <InfoRow icon={Clock} label="Hours" value="Mon–Fri 8a–6p · Sat 9a–2p · Sun closed" />
             </div>
 
-            <div className="mt-8 overflow-hidden rounded-2xl border border-border shadow-card">
-              <iframe
-                title="Clinic location map"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=72.82%2C19.05%2C72.85%2C19.07&layer=mapnik"
-                className="h-64 w-full"
-                loading="lazy"
-              />
-            </div>
           </div>
 
           <form
