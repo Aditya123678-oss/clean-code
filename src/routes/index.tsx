@@ -537,6 +537,30 @@ const beforeAfterCases = [
     before: baPigmentBefore,
     after: baPigmentAfter,
   },
+  {
+    id: "rosacea",
+    title: "Rosacea & Redness",
+    duration: "10 weeks · vascular protocol",
+    desc: "Vascular laser sessions paired with a barrier-repair routine to calm persistent flushing and visible capillaries.",
+    before: baRosaceaBefore,
+    after: baRosaceaAfter,
+  },
+  {
+    id: "melasma",
+    title: "Melasma",
+    duration: "14 weeks · pigmentation protocol",
+    desc: "Tranexamic-acid based regimen with low-fluence laser to lift stubborn hormonal pigmentation safely.",
+    before: baMelasmaBefore,
+    after: baMelasmaAfter,
+  },
+  {
+    id: "scars",
+    title: "Acne Scars & PIH",
+    duration: "16 weeks · resurfacing protocol",
+    desc: "Microneedling RF and chemical peels to remodel atrophic scars and even out post-inflammatory marks.",
+    before: baScarsBefore,
+    after: baScarsAfter,
+  },
 ];
 
 function Results() {
