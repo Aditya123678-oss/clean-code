@@ -34,6 +34,12 @@ import baMelasmaBefore from "@/assets/ba-melasma-before.jpg";
 import baMelasmaAfter from "@/assets/ba-melasma-after.jpg";
 import baScarsBefore from "@/assets/ba-scars-before.jpg";
 import baScarsAfter from "@/assets/ba-scars-after.jpg";
+import baScarsXBefore from "@/assets/ba-scarsx-before.jpg";
+import baScarsXAfter from "@/assets/ba-scarsx-after.jpg";
+import baRosaceaXBefore from "@/assets/ba-rosaceax-before.jpg";
+import baRosaceaXAfter from "@/assets/ba-rosaceax-after.jpg";
+import baKeloidBefore from "@/assets/ba-keloid-before.jpg";
+import baKeloidAfter from "@/assets/ba-keloid-after.jpg";
 
 
 export const Route = createFileRoute("/")({
@@ -560,6 +566,30 @@ const beforeAfterCases = [
     desc: "Microneedling RF and chemical peels to remodel atrophic scars and even out post-inflammatory marks.",
     before: baScarsBefore,
     after: baScarsAfter,
+  },
+  {
+    id: "scar-revision",
+    title: "Surgical Scar Revision",
+    duration: "Single session · surgical protocol",
+    desc: "Targeted scar revision surgery to flatten and refine a long-standing facial scar, photographed before and after the procedure.",
+    before: baScarsXBefore,
+    after: baScarsXAfter,
+  },
+  {
+    id: "steroid-rosacea",
+    title: "Steroid-Induced Rosacea",
+    duration: "After steroid withdrawal · medical protocol",
+    desc: "Restoring the skin barrier after topical-steroid-induced rosacea, with dramatic resolution of facial erythema and inflammation.",
+    before: baRosaceaXBefore,
+    after: baRosaceaXAfter,
+  },
+  {
+    id: "keloid",
+    title: "Scapular Keloid",
+    duration: "Long-term · adhesive tape therapy",
+    desc: "Flattening and fading of a raised scapular keloid using consistent corticosteroid tape therapy over several months.",
+    before: baKeloidBefore,
+    after: baKeloidAfter,
   },
 ];
 
