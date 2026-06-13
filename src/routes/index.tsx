@@ -567,6 +567,30 @@ const beforeAfterCases = [
     before: baScarsBefore,
     after: baScarsAfter,
   },
+  {
+    id: "scar-revision",
+    title: "Surgical Scar Revision",
+    duration: "Single session · surgical protocol",
+    desc: "Targeted scar revision surgery to flatten and refine a long-standing facial scar, photographed before and after the procedure.",
+    before: baScarsXBefore,
+    after: baScarsXAfter,
+  },
+  {
+    id: "steroid-rosacea",
+    title: "Steroid-Induced Rosacea",
+    duration: "After steroid withdrawal · medical protocol",
+    desc: "Restoring the skin barrier after topical-steroid-induced rosacea, with dramatic resolution of facial erythema and inflammation.",
+    before: baRosaceaXBefore,
+    after: baRosaceaXAfter,
+  },
+  {
+    id: "keloid",
+    title: "Scapular Keloid",
+    duration: "Long-term · adhesive tape therapy",
+    desc: "Flattening and fading of a raised scapular keloid using consistent corticosteroid tape therapy over several months.",
+    before: baKeloidBefore,
+    after: baKeloidAfter,
+  },
 ];
 
 function Results() {
