@@ -34,6 +34,12 @@ import baMelasmaBefore from "@/assets/ba-melasma-before.jpg";
 import baMelasmaAfter from "@/assets/ba-melasma-after.jpg";
 import baScarsBefore from "@/assets/ba-scars-before.jpg";
 import baScarsAfter from "@/assets/ba-scars-after.jpg";
+import baScarsXBefore from "@/assets/ba-scarsx-before.jpg";
+import baScarsXAfter from "@/assets/ba-scarsx-after.jpg";
+import baRosaceaXBefore from "@/assets/ba-rosaceax-before.jpg";
+import baRosaceaXAfter from "@/assets/ba-rosaceax-after.jpg";
+import baKeloidBefore from "@/assets/ba-keloid-before.jpg";
+import baKeloidAfter from "@/assets/ba-keloid-after.jpg";
 
 
 export const Route = createFileRoute("/")({
