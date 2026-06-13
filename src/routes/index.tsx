@@ -28,6 +28,12 @@ import baWrinkleBefore from "@/assets/ba-wrinkle-before.jpg";
 import baWrinkleAfter from "@/assets/ba-wrinkle-after.jpg";
 import baPigmentBefore from "@/assets/ba-pigment-before.jpg";
 import baPigmentAfter from "@/assets/ba-pigment-after.jpg";
+import baRosaceaBefore from "@/assets/ba-rosacea-before.jpg";
+import baRosaceaAfter from "@/assets/ba-rosacea-after.jpg";
+import baMelasmaBefore from "@/assets/ba-melasma-before.jpg";
+import baMelasmaAfter from "@/assets/ba-melasma-after.jpg";
+import baScarsBefore from "@/assets/ba-scars-before.jpg";
+import baScarsAfter from "@/assets/ba-scars-after.jpg";
 
 
 export const Route = createFileRoute("/")({
